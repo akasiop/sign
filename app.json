@@ -1,0 +1,69 @@
+ {
+  "pages":[
+    "entry/entry_1/entry_1",
+    "entry/forget/forget",
+    "entry/register/register",
+    "pages/index_1/index_1",    
+    "pages/zixun_deta_2/zixun_deta_2",
+    "pages/zixun_deta/zixun_deta",
+    "pages/S_major_7/S_major_7",
+    "pages/S_major_6/S_major_6",
+    "pages/S_major_5/S_major_5",
+    "pages/S_major_4/S_major_4",
+    "pages/S_major_3/S_major_3",
+    "pages/S_major_2/S_major_2",
+    "pages/S_major/S_major",
+    "pages/GZ_people_3/GZ_people_3",
+    "pages/GZ_people_2/GZ_people_2",
+    "pages/GZ_people/GZ_people",
+    "pages/university/university",
+    "pages/my_sign/my_sign",
+    "pages/today_remd/today_remd",
+    "pages/sign/sign",
+    "pages/zixun/zixun",
+    "pages/school_dynamic/school_dynamic",
+    "exchange/index/index",
+    "exchange/index4/index4",
+    "exchange/index3/index3",
+    "exchange/index2/index2",
+    "exchange/award/award",
+    "exchange/award_2/award_2",
+    "exchange/award_3/award_3",
+    "exchange/my/my",
+    "personal/me/me",
+    "personal/she/she",
+    "personal/he_coach/he_coach"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#EDEDED",
+    "navigationBarTitleText": "新助邦积分签到",
+    "navigationBarTextStyle":"black"
+  },
+"tabBar": {
+  "color": "#a9b7b7",
+  "background": "#F8F9FC",
+  "selectedColor": "#19CCA5",
+  "borderStyle": "#CCCCCC",
+  "list": [
+    {
+      "selectedIconPath": "images/f00.png",
+      "iconPath": "images/f00.png",
+      "pagePath": "pages/index_1/index_1",
+      "text": "赚积分"
+    },
+    {
+      "selectedIconPath": "images/f00.png",
+      "iconPath": "images/f00.png",
+      "pagePath": "exchange/index/index",
+      "text": "换积分"
+    },
+    {
+      "selectedIconPath": "images/f00.png",
+      "iconPath": "images/f00.png",
+      "pagePath": "personal/me/me",
+      "text": "我的"
+    }
+  ]
+}
+}
