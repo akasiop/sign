@@ -1,0 +1,37 @@
+<!--entry/entry_1/entry_1.wxml-->
+<view class="container">
+
+<view class="item05">
+<image src="/images/f20.png" class="img_2"></image>
+<text class="title_4">新助邦——人人可以为师</text>
+</view>
+
+<view class="item02">
+<text class="title_2">用户名</text>
+<text class="title_2_2">手机号</text>
+<text class="title_2_3">验证码</text>
+<text class="title_2_4">密码</text>
+<text class="title_2_5">确认密码</text>
+<text class="title_2_6">邀请码</text>
+<view class="line_1" name="userinput" bindinput="userNameInput"></view>
+<view class="line_2" name="userinput" bindinput="userNameInput"></view>
+<view class="line_3" name="userinput" bindinput="userNameInput"></view>
+<view class="line_4" name="userinput" bindinput="userNameInput"></view>
+<view class="line_5" name="userinput" bindinput="userNameInput"></view>
+<view class="line_6" name="userinput" bindinput="userNameInput"></view>
+<button class="button_2">发送验证码</button>
+</view>
+
+<view class="item03">
+<checkbox-group class="xuan" bindchange="listenCheckboxChange">
+<label style="display: flex;" wx:for-items="{{items}}">
+<checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+</label>
+</checkbox-group>
+</view>
+
+<navigator url="NULL">
+<button class="button_1">注册</button>
+</navigator>
+
+</view>

@@ -1,0 +1,172 @@
+/* entry/entry_1/entry_1.wxss */
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+/*图片 样式*/
+.img_1{
+  width: 102rpx;
+  height: 100rpx;
+  position: relative;
+  top: 50rpx;
+}
+.img_2{
+  width: 150rpx;
+  height: 150rpx;
+  position: relative;
+  bottom: 30rpx;
+}
+
+/*水平线 样式
+*/
+.line_1{
+  width: 400rpx;
+  height: 1rpx;
+  background: #CCCCCC;
+  position: absolute;
+  top: 90rpx;
+  left: 200rpx;
+}
+.line_2{
+  width: 400rpx;
+  height: 1rpx;
+  background: #CCCCCC;
+  position: absolute;
+  top: 190rpx;
+  left: 200rpx;
+}
+.line_3{
+  width: 1rpx;
+  height: 40rpx;
+  background: #CCCCCC;
+  position: absolute;
+  top: 20rpx;
+}
+
+/*按钮 签到*/
+.button_1{         
+  background: #19CCA5;
+  width: 80%;
+  height: 100rpx;
+  font-size: 36rpx;
+  font-family:"Arial";
+  position: absolute;
+  color: white;
+  right: 75rpx;
+  top: 600rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+/*字体 样式*/
+.title_1{
+  font-size:30rpx;
+  font-weight: normal;
+  font-family:"Arial";
+  color: #999999;
+  position: absolute;
+  top: 180rpx;
+}
+.title_2{
+  font-size:36rpx;
+  font-weight: normal;
+  font-family:"Arial";
+  color: #333333;
+  position: absolute;
+  top: 50rpx;
+  left: 64rpx;
+}
+.title_2_2{
+  font-size:36rpx;
+  font-weight: normal;
+  font-family:"Arial";
+  color: #333333;
+  position: absolute;
+  top: 150rpx;
+  left: 80rpx;
+}
+.title_3{
+  font-size:34rpx;
+  font-weight: normal;
+  font-family:"Arial";
+  color: #19CCA5;
+  position: absolute;
+  top: 20rpx;
+  left: 180rpx;
+}
+.title_3_2{
+  font-size:34rpx;
+  font-weight: normal;
+  font-family:"Arial";
+  color: #333333;
+  position: absolute;
+  top: 20rpx;
+  right: 230rpx;
+}
+.title_4{
+  font-size:34rpx;
+  font-weight: normal;
+  font-family:"Arial";
+  color: #333333;
+  position: absolute;
+  top: 260rpx;
+}
+
+
+
+/*框架 样式*/
+.item01{
+  width: 100%;
+  height: 250rpx;
+  position: absolute;
+  top: 0rpx;
+  display: flex;
+  justify-content: center;
+}
+.item02{
+  width: 100%;
+  height: 250rpx;
+  position: absolute;
+  top: 250rpx;
+  display: flex;
+}
+.item03{
+  width: 100%;
+  height: 100rpx;
+  position: absolute;
+  top: 500rpx;
+  display: flex;
+}
+.item04{
+  width: 100%;
+  height: 100rpx;
+  position: absolute;
+  top: 700rpx;
+  display: flex;
+  justify-content: center;
+}
+.item05{
+  width: 100%;
+  height: 450rpx;
+  position: absolute;
+  bottom: 0rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*复选 按钮*/
+.xuan{
+  font-size: 28rpx;
+  font-weight: normal;
+  font-family:"Arial";
+  color: #999999;
+  position: absolute;
+  left: 110rpx;
+}
+
+
