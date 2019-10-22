@@ -1,0 +1,51 @@
+<!--exchange/award/award.wxml-->
+<view class="container">
+
+<view class="item01">
+<image src="/images/f00.png" class="img_1"></image>
+</view>
+
+<view class="item02">
+<text class="title_1">服务的标题，要全部显示完整，一行显示不完则两行</text>
+<image src="/images/f16.png" class="img_3"></image>
+<text class="title_2_2">2017-08-03</text>
+<image src="/images/f000.png" class="img_4"></image>
+<text class="title_2_3">发布者昵称</text>
+<text class="title_2_4">$价格</text>
+</view>
+
+<view class="item03">
+<navigator url="/exchange/award/award">
+<text class="title_3">详情</text>
+</navigator>
+<navigator url="/exchange/award_2/award_2">
+<text class="title_3_2">已兑换人员</text>
+</navigator>
+<navigator url="/exchange/award_3/award_3">
+<text class="title_3_3">讨论区</text>
+</navigator>
+<view class="line_1"></view>
+</view>
+
+<view class="item04">
+<image src="/images/f17.png" class="img_5"></image>
+<text class="title_5">收藏</text>
+<view class="line_2"></view>
+
+<image src="/images/f18.png" class="img_5_2"></image>
+<text class="title_5_2">联系新助邦</text>
+<view class="line_2_2"></view>
+
+<image src="/images/f19.png" class="img_5_3"></image>
+<text class="title_5_3">联系对方</text>
+
+<button class="button_1" bindtap="showModal">马上购买</button>
+
+</view>
+
+<view>
+  <modal title="下载app，可以直接购买喔~" hidden="{{modalHidden}}" confirm-text="马上就去" cancel-text="下次再说"
+  bindconfirm="modalBindaconfirm" bindcancel="modalBindcancel"></modal>
+</view>
+
+</view>

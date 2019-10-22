@@ -1,0 +1,62 @@
+<!--exchange/index/index.wxml-->
+<view class="container">
+
+<view class="item01">
+<navigator url="/exchange/index/index"><image src="/images/f00.png" class="img_1"></image></navigator>
+<navigator url="/exchange/index2/index2"><image src="/images/f00.png" class="img_1_2"></image></navigator>
+<navigator url="/exchange/index3/index3"><image src="/images/f00.png" class="img_1_3"></image></navigator>
+<navigator url="/exchange/index4/index4"><image src="/images/f00.png" class="img_1_4"></image></navigator>
+
+<navigator url="/exchange/index/index"><text class="title_1">网校课</text></navigator>
+<navigator url="/exchange/index2/index2"><text class="title_1_2">直播</text></navigator>
+<navigator url="/exchange/index3/index3"><text class="title_1_3">资料</text></navigator>
+<navigator url="/exchange/index4/index4"><text class="title_1_4">图书</text></navigator>
+</view>
+
+<view class="item02">
+<navigator url="/exchange/award/award">
+<text class="title_2">退换奖品的文字文字文字文字文字文字文字居</text>
+</navigator>
+<image src="/images/f00.png" class="img_2"></image>
+<image src="/images/f16.png" class="img_3"></image>
+<text class="title_2_2">2017-05-25~2017-08-03</text>
+<image src="/images/f000.png" class="img_4"></image>
+<text class="title_2_3">发布者昵称</text>
+<button class="button_1">兑换</button>
+</view>
+
+<view class="item02_2">
+<navigator url="/exchange/award/award">
+<text class="title_2">退换奖品的文字文字文字文字文字文字文字居</text>
+</navigator>
+<image src="/images/f00.png" class="img_2"></image>
+<image src="/images/f16.png" class="img_3"></image>
+<text class="title_2_2">2017-05-25~2017-08-03</text>
+<image src="/images/f000.png" class="img_4"></image>
+<text class="title_2_3">发布者昵称</text>
+<button class="button_1">兑换</button>
+</view>
+
+<view class="item02_2">
+<navigator url="/exchange/award/award">
+<text class="title_2">退换奖品的文字文字文字文字文字文字文字居</text>
+</navigator>
+<image src="/images/f00.png" class="img_2"></image>
+<image src="/images/f16.png" class="img_3"></image>
+<text class="title_2_2">2017-05-25~2017-08-03</text>
+<image src="/images/f000.png" class="img_4"></image>
+<text class="title_2_3">发布者昵称</text>
+<button class="button_1">兑换</button>
+</view>
+
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+   <block wx:for="{{movies}}" wx:for-index="index">  
+    <swiper-item>  
+     <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+    </swiper-item>  
+   </block>  
+  </swiper>
+ 
+
+
+</view>
