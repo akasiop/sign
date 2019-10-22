@@ -1,0 +1,32 @@
+<!--pages/zixun/zixun.wxml-->
+<view class="container">
+
+<view class="item06">
+<view class="hd"></view>
+<text class="title_4">分类</text>
+</view>
+<view class="line_1"></view>
+
+<view class="item05_2">
+<image src="/images/f00.png" class="img_3"></image>
+<text class="title_7">标题标题标题标题标题标题标题标题题</text>
+<text class="title_8">2017-07-31</text>
+</view>
+<view class="line_2"></view>
+
+<view class="item05">
+<image src="/images/f00.png" class="img_3"></image>
+<text class="title_7">标题标题标题标题标题标题标题标题题</text>
+<text class="title_8">2017-07-31</text>
+</view>
+<view class="line_3"></view>
+
+<view class="item05">
+<image src="/images/f00.png" class="img_3"></image>
+<text class="title_7">标题标题标题标题标题标题标题标题题</text>
+<text class="title_8">2017-07-31</text>
+</view>
+<view class="line_3"></view>
+
+
+</view>

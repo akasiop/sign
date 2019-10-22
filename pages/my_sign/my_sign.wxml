@@ -1,0 +1,32 @@
+<!--pages/my_sign/my_sign.wxml-->
+<view class="container">
+
+<view class="item01_1">
+<image src="/images/f000.png" class="img_1"></image>
+<text class="title_1">名称名称名称名称</text>
+<button class="button_2">取消关注</button>
+</view>
+<view class="line_2"></view>
+
+<view class="item02_2">
+<image src="/images/f000.png" class="img_1"></image>
+<text class="title_1">名称名称名称名称</text>
+<button class="button_2">取消关注</button>
+</view>
+<view class="line_2"></view>
+
+<view class="item02_2">
+<image src="/images/f000.png" class="img_1"></image>
+<text class="title_1">名称名称名称名称</text>
+<button class="button_2">取消关注</button>
+</view>
+<view class="line_2"></view>
+
+<view>  
+  <image src="/images/f000.png" class="img-style" animation="{{animCollect}}" bindtap="collect"></image>  
+  <image src="/images/f000.png" class="img-style" animation="{{animTranspond}}" bindtap="transpond"></image>  
+  <image src="/images/f000.png" class="img-style" animation="{{animInput}}" bindtap="input"></image>  
+  <image src="/images/f000.png" class="img-plus-style" animation="{{animPlus}}" bindtap="plus"></image>  
+</view>  
+
+</view>

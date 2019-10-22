@@ -1,0 +1,34 @@
+<!--pages/S_major/S_major.wxml-->
+<view class="container">
+
+<view class="item01">
+ <text class="title">非统考</text>
+ </view>
+<view class="item01_2">
+ <text class="title">统考</text>
+ </view>
+
+<view class="item03">
+<text class="title_1">
+选中的学科门类
+
+
+一级学科
+
+
+</text></view>
+<view class="line_1"></view>
+
+<view class="item04">
+<view class="line_2"></view>     <image src="/images/f11.png" class="img_1"></image>
+<view class="line_2_2"></view>
+<view class="line_2_3"></view>
+<view class="line_2_4"></view>
+<view class="line_2_5"></view>
+<view class="line_2_6"></view>
+<view class="line_2_7"></view>
+<view class="line_2_8"></view>
+</view>
+
+
+</view>

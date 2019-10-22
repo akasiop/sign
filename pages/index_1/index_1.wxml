@@ -1,0 +1,228 @@
+<!--index.wxml-->
+<view class="container">
+<view class="item01">
+ <text class="title">登录助邦考研app，获得更多帮助</text>
+ </view>
+
+ <view class="item02">
+<image src="/images/f01.jpg" class="img_1"></image>
+<view class="item02_1">
+<text class="title_1">离考研还有</text>    
+</view>
+<view class="item02_2">
+<text class="title_2">“Never give in except to convictions of honor and good sense.”  — Winston Churchill, British Prime Minister
+「绝不要放弃，除非因为荣誉或不合常理。」– 温斯顿‧邱吉尔 (英国首相)</text>
+</view>
+
+<navigator url="noll">
+<button class="button_1">签 到</button>
+</navigator>
+
+</view>
+
+<view class="item03">
+<navigator url="/pages/sign/sign">
+<text class="title_3">显示打卡排名>></text>
+</navigator>
+
+</view>
+
+
+<view class="item04">
+<image src="/images/f02.png" class="img_2"></image>
+<text class="title_4">今日推荐</text>
+<text class="title_5">（分享文章获5积分）</text>
+<navigator url="/pages/today_remd/today_remd">
+<text class="title_6">查看全部>></text>
+</navigator>
+</view>
+<view class="line_1"></view>
+
+<view class="item05">
+<navigator url="/pages/zixun_deta/zixun_deta">
+<image src="/images/f00.png" class="img_3"></image>
+</navigator>
+<navigator url="/pages/zixun_deta/zixun_deta">
+<text class="title_7">标题标题标题标题标题标题标题标题题</text>
+</navigator>
+<text class="title_8">2017-07-31</text>
+</view>
+<view class="line_2"></view>
+
+<view class="item05">
+<navigator url="/pages/zixun_deta/zixun_deta">
+<image src="/images/f00.png" class="img_3"></image>
+</navigator>
+<navigator url="/pages/zixun_deta/zixun_deta">
+<text class="title_7">标题标题标题标题标题标题标题标题题</text>
+</navigator>
+<text class="title_8">2017-07-31</text>
+</view>
+<view class="line_2"></view>
+
+<view class="item05">
+<navigator url="/pages/zixun_deta/zixun_deta">
+<image src="/images/f00.png" class="img_3"></image>
+</navigator>
+<navigator url="/pages/zixun_deta/zixun_deta">
+<text class="title_7">标题标题标题标题标题标题标题标题题</text>
+</navigator>
+<text class="title_8">2017-07-31</text>
+</view>
+<view class="line_2"></view>
+
+<view class="item06">
+<image src="/images/f03.png" class="img_2"></image>
+<text class="title_4">公告</text>
+<text class="title_5">（分享文章获5积分）</text>
+
+<navigator url="/pages/zixun/zixun">
+<text class="title_6">查看全部>></text>
+</navigator>
+
+</view>
+<view class="line_1"></view>
+
+<view class="item05">
+<navigator url="/pages/zixun_deta/zixun_deta">
+<image src="/images/f00.png" class="img_3"></image>
+</navigator>
+<navigator url="/pages/zixun_deta/zixun_deta">
+<text class="title_7">标题标题标题标题标题标题标题标题题</text>
+</navigator>
+<text class="title_8">2017-07-31</text>
+</view>
+<view class="line_2"></view>
+
+<view class="item05">
+<navigator url="/pages/zixun_deta/zixun_deta">
+<image src="/images/f00.png" class="img_3"></image>
+</navigator>
+<navigator url="/pages/zixun_deta/zixun_deta">
+<text class="title_7">标题标题标题标题标题标题标题标题题</text>
+</navigator>
+<text class="title_8">2017-07-31</text>
+</view>
+<view class="line_2"></view>
+
+<view class="item05">
+<navigator url="/pages/zixun_deta/zixun_deta">
+<image src="/images/f00.png" class="img_3"></image>
+</navigator>
+<navigator url="/pages/zixun_deta/zixun_deta">
+<text class="title_7">标题标题标题标题标题标题标题标题题</text>
+</navigator>
+<text class="title_8">2017-07-31</text>
+</view>
+<view class="line_2"></view>
+
+
+<view class="item06">
+<image src="/images/f04.png" class="img_2"></image>
+<text class="title_4">院校资讯</text>
+<text class="title_5">（分享文章获5积分）</text>
+</view>
+<view class="line_1"></view>
+
+<view class="item05_1">
+<text class="title_9">还没有关注过院校喔~</text>
+
+<navigator url="/pages/university/university">
+<button class="button_2">去关注</button>
+</navigator>
+
+</view>
+<view class="line_2"></view>
+
+
+<view class="item06">
+<image src="/images/f00.png" class="img_2"></image>
+<text class="title_4">最新资讯</text>
+<text class="title_5">（分享文章获5积分）</text>
+
+<navigator url="/pages/zixun/zixun">
+<text class="title_6">查看全部>></text>
+</navigator>
+
+</view>
+<view class="line_1"></view>
+
+<view class="item05">
+<navigator url="/pages/zixun_deta/zixun_deta">
+<image src="/images/f00.png" class="img_3"></image>
+</navigator>
+<navigator url="/pages/zixun_deta/zixun_deta">
+<text class="title_7">标题标题标题标题标题标题标题标题题</text>
+</navigator>
+<text class="title_8">2017-07-31</text>
+</view>
+<view class="line_2"></view>
+
+<view class="item05">
+<navigator url="/pages/zixun_deta/zixun_deta">
+<image src="/images/f00.png" class="img_3"></image>
+</navigator>
+<navigator url="/pages/zixun_deta/zixun_deta">
+<text class="title_7">标题标题标题标题标题标题标题标题题</text>
+</navigator>
+<text class="title_8">2017-07-31</text>
+</view>
+<view class="line_2"></view>
+
+<view class="item05">
+<navigator url="/pages/zixun_deta/zixun_deta">
+<image src="/images/f00.png" class="img_3"></image>
+</navigator>
+<navigator url="/pages/zixun_deta/zixun_deta">
+<text class="title_7">标题标题标题标题标题标题标题标题题</text>
+</navigator>
+<text class="title_8">2017-07-31</text>
+</view>
+<view class="line_2"></view>
+
+
+<view class="item06">
+<image src="/images/f00.png" class="img_2"></image>
+<text class="title_4">关注</text>
+<text class="title_5">（分享文章获5积分）</text>
+<navigator url="/pages/my_sign/my_sign">
+<text class="title_6">全部关注>></text>
+</navigator>
+</view>
+<view class="line_1"></view>
+
+<view class="item05">
+<navigator url="/pages/zixun_deta/zixun_deta">
+<image src="/images/f00.png" class="img_3"></image>
+</navigator>
+<navigator url="/pages/zixun_deta/zixun_deta">
+<text class="title_7">标题标题标题标题标题标题标题标题题</text>
+</navigator>
+<text class="title_8">2017-07-31</text>
+</view>
+<view class="line_2"></view>
+
+<view class="item05">
+<navigator url="/pages/zixun_deta/zixun_deta">
+<image src="/images/f00.png" class="img_3"></image>
+</navigator>
+<navigator url="/pages/zixun_deta/zixun_deta">
+<text class="title_7">标题标题标题标题标题标题标题标题题</text>
+</navigator>
+<text class="title_8">2017-07-31</text>
+</view>
+<view class="line_2"></view>
+
+<view class="item05">
+<navigator url="/pages/zixun_deta/zixun_deta">
+<image src="/images/f00.png" class="img_3"></image>
+</navigator>
+<navigator url="/pages/zixun_deta/zixun_deta">
+<text class="title_7">标题标题标题标题标题标题标题标题题</text>
+</navigator>
+<text class="title_8">2017-07-31</text>
+</view>
+<view class="line_2"></view>
+
+
+</view>

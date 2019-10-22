@@ -1,0 +1,248 @@
+
+/**index.wxss**/
+.container{
+  width: 100%;
+  height: 100%;
+}
+/*图片 样式（本地）*/
+.img_3{
+  width: 120rpx;
+  height: 120rpx;
+  position: relative;
+  margin-left: 32rpx;
+  margin-top: 32rpx;
+}
+.img_4{
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  left: 4%;
+}
+.img_5{
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  left: 88%;
+}
+.img_6{
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  left: 100rpx;
+}
+.img_6_2{
+  width: 80rpx;
+  height: 80rpx;
+  position: relative;
+  left: 29%;
+}
+.img_6_3{
+  width: 80rpx;
+  height: 80rpx;
+  position: relative;
+  left: 22%;
+}
+.img_6_4{
+  width: 80rpx;
+  height: 80rpx;
+  position: relative;
+  left: 15%;
+}
+.img_6_5{
+  width: 80rpx;
+  height: 80rpx;
+  position: relative;
+  left: 8%;
+}
+
+
+/*按钮 签到*/
+.button_1{         
+  background: #19CCA5;
+  width: 190rpx;
+  height: 60rpx;
+  font-size: 28rpx;
+  font-family:"Arial";
+  position: absolute;
+  color: white;
+  right: 35rpx;
+  top: 280rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
+}
+.button_2{
+  width: 190rpx;
+  height: 60rpx;
+  background: #ffffff;
+  border-width: 1rpx 1rpx 1rpx 1rpx;
+  border-color: #19CCA5;
+  border-style: solid;
+  font-size: 28rpx;
+  font-family: "Arial";
+  position: absolute;
+  color: #19CCA5;
+  right: 32rpx;
+  top: 32rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
+}
+
+
+/*水平线 样式*/
+.line_1{
+  height: 1rpx;
+  width: 100%;
+  background: #999999;
+  position: absolute;
+  top: 78rpx;
+}
+.line_1_2{
+  height: 1rpx;
+  width: 100%;
+  background: #999999;
+  position: relative;
+}
+.line_2{
+  height: 1rpx;
+  width: 92%;
+  background: #CCCCCC;
+  position: relative;
+  margin-top: 64rpx;
+}
+.line_3{
+  height: 1rpx;
+  width: 92%;
+  background: #CCCCCC;
+  position: relative;
+}
+
+/*标题 字样式*/
+.title_7{
+  width: 500rpx;
+  font-size: 32rpx;
+  font-weight:negreta;
+  font-family:"Arial";
+  color: #333333;
+  position: absolute;
+  left: 180rpx;
+  top: 32rpx;
+}
+.title_8{
+  font-size: 24rpx;
+  font-weight:negreta;
+  font-family:"Arial";
+  color: #CCCCCC;
+  position: absolute;
+  left: 180rpx;
+  top: 165rpx;
+}
+.title_8_2{
+  font-size: 24rpx;
+  font-weight:negreta;
+  font-family:"Arial";
+  color: #CCCCCC;
+  position: absolute;
+  left: 180rpx;
+  top: 116rpx;
+
+}
+
+
+.title_9{
+  width: 500rpx;
+  font-size: 32rpx;
+  font-weight:negreta;
+  font-family:"Arial";
+  color: #19CCA5;
+  position: absolute;
+  left: 32rpx;
+  top: 32rpx;
+}
+.title_10{
+  font-size: 24rpx;
+  font-weight:negreta;
+  font-family:"Arial";
+  color: #CCCCCC;
+  position: absolute;
+  left: 90rpx;
+  top: 120rpx;
+}
+.title_10_2{
+  font-size: 24rpx;
+  font-weight:negreta;
+  font-family:"Arial";
+  color: #CCCCCC;
+  position: relative;
+  left: 17%;
+  top: 60rpx;
+}
+.title_10_3{
+  font-size: 24rpx;
+  font-weight:negreta;
+  font-family:"Arial";
+  color: #CCCCCC;
+  position: relative;
+  left: 10%;
+  top: 60rpx;
+}
+.title_10_4{
+  font-size: 24rpx;
+  font-weight:negreta;
+  font-family:"Arial";
+  color: #CCCCCC;
+  position: relative;
+  left: 3%;
+  top: 60rpx;
+}
+.title_10_5{
+  font-size: 24rpx;
+  font-weight:negreta;
+  font-family:"Arial";
+  color: #CCCCCC;
+  position: relative;
+  left: -4%;
+  top: 60rpx;
+}
+
+
+
+/*框架 样式*/
+.item05{
+  width: 100%;
+  height: 160rpx;
+  position: relative;
+  margin-top: 0rpx;
+}
+
+
+.item08{
+  width: 100%;
+  height: 150rpx;
+  position: absolute;
+  top: 0rpx;
+  display: flex;
+  align-items: center;
+}
+
+
+/*弹出式悬浮菜单*/
+.img-plus-style {  
+  height: 100rpx;  
+  width: 100rpx;  
+  position: absolute;  
+  bottom: 200rpx;  
+  right: 40rpx;  
+  z-index: 100;  
+}  
+.img-style {  
+  height: 100rpx;  
+  width: 100rpx;  
+  position: absolute;  
+  bottom: 200rpx;  
+  right: 40rpx;  
+  opacity: 0;  
+}  

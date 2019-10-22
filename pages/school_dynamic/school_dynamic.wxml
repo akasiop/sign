@@ -1,0 +1,52 @@
+<!--pages/school_dynamic/school_dynamic.wxml-->
+<view class="container">
+
+<view class="item08">
+<image src="/images/f07.png" class="img_4"></image>
+<image src="/images/f000.png" class="img_6"></image>
+<text class="title_10">北京大学</text>
+<image src="/images/f000.png" class="img_6_2"></image>
+<text class="title_10_2">北京大学</text>
+<image src="/images/f000.png" class="img_6_3"></image>
+<text class="title_10_3">北京大学</text>
+<image src="/images/f000.png" class="img_6_4"></image>
+<text class="title_10_4">北京大学</text>
+<image src="/images/f000.png" class="img_6_5"></image>
+<text class="title_10_5">北京大学</text>
+<image src="/images/f06.png" class="img_5"></image>
+</view>
+
+<view class="item05">
+<image src="/images/f00.png" class="img_3"></image>
+<text class="title_7">标题标题标题标题标题标题标题标题题</text>
+<text class="title_8_2">北京大学</text>
+<text class="title_8">2017-07-31</text>
+</view>
+<view class="line_2"></view>
+
+<view class="item05">
+<image src="/images/f00.png" class="img_3"></image>
+<text class="title_7">标题标题标题标题标题标题标题标题题</text>
+<text class="title_8_2">北京大学</text>
+<text class="title_8">2017-07-31</text>
+</view>
+<view class="line_2"></view>
+
+<view class="item05">
+<image src="/images/f00.png" class="img_3"></image>
+<text class="title_7">标题标题标题标题标题标题标题标题题</text>
+<text class="title_8_2">北京大学</text>
+<text class="title_8">2017-07-31</text>
+</view>
+<view class="line_2"></view>
+
+<view>  
+  <image src="/images/f000.png" class="img-style" animation="{{animCollect}}" bindtap="collect"></image>  
+  <image src="/images/f000.png" class="img-style" animation="{{animTranspond}}" bindtap="transpond"></image>  
+  <image src="/images/f000.png" class="img-style" animation="{{animInput}}" bindtap="input"></image>  
+  <image src="/images/f000.png" class="img-plus-style" animation="{{animPlus}}" bindtap="plus"></image>  
+</view>  
+
+
+
+</view>

@@ -1,0 +1,36 @@
+
+<view class="container">
+
+<view class="item01">
+ 
+ <view class="line_1"></view>
+  <view class="line_2"></view>
+   <view class="line_3"></view>
+    <view class="line_4"></view>
+
+<text class="title02">专业课</text>
+<text class="title02_2">政治</text>
+<text class="title02_3">英语</text>
+<text class="title02_4">数学</text>
+<text class="title02_5">联考统考</text>
+ 
+</view>
+
+<view class="item02">
+<text class="title_3">暂时还没有可以推荐的专业课老师或师兄姐喔</text>
+</view>
+
+<button class="button_2">知道了</button>
+
+
+<view>  
+  <image src="/images/f000.png" class="img-style" animation="{{animCollect}}" bindtap="collect"></image>  
+  <image src="/images/f000.png" class="img-style" animation="{{animTranspond}}" bindtap="transpond"></image>  
+  <image src="/images/f000.png" class="img-style" animation="{{animInput}}" bindtap="input"></image>  
+  <image src="/images/f000.png" class="img-plus-style" animation="{{animPlus}}" bindtap="plus"></image>  
+</view>  
+
+
+</view>
+
+

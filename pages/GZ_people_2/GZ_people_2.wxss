@@ -1,0 +1,237 @@
+/* pages/GZ_people_2/GZ_people_2.wxss */
+/* pages/GZ_people/GZ_people.wxss */
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+/*图片 样式*/
+.img_1{
+  width: 110rpx;
+  height: 110rpx;
+  position: absolute;
+  left: 44rpx;
+}
+
+/*分割线 样式*/
+.line_1{
+  height: 40%;
+  width: 1rpx;
+  background: #ffffff;
+  position: relative;
+  left: 20%;
+}
+.line_2{
+  height: 40%;
+  width: 1rpx;
+  background: #ffffff;
+  position: relative;
+  left: 38%;
+}
+.line_3{
+  height: 40%;
+  width: 1rpx;
+  background: #ffffff;
+  position: relative;
+  left: 56%;
+}
+.line_4{
+  height: 40%;
+  width: 1rpx;
+  background: #ffffff;
+  position: relative;
+  left: 74%;
+}
+/*水平线 样式*/
+.line_5{
+  height: 1rpx;
+  width: 92%;
+  background: #CCCCCC;
+  position: relative;
+  right: -4%;
+  top: 30rpx;
+}
+.line_6{
+  height: 1rpx;
+  width: 92%;
+  background: #CCCCCC;
+  position: relative;
+  right: -4%;
+  top: 50rpx;
+}
+
+
+
+
+
+/*按钮 样式*/
+.button_3{
+  width: 150rpx;
+  height: 60rpx;
+  background: #ffffff;
+  border-width: 1rpx 1rpx 1rpx 1rpx;
+  border-color: #19CCA5;
+  border-style: solid;
+  font-size: 28rpx;
+  font-family: "Arial";
+  color: #19CCA5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
+  position: absolute;
+  right: 44rpx;
+}
+.button_2{
+  width: 160rpx;
+  height: 60rpx;
+  background: #ffffff;
+  border-width: 1rpx 1rpx 1rpx 1rpx;
+  border-color: #19CCA5;
+  border-style: solid;
+  font-size: 23rpx;
+  font-family: "Arial";
+  color: #19CCA5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
+  position: absolute;
+  right: 44rpx;
+}
+
+/*标题 字样式*/
+.title{
+  font-size:32rpx;
+  font-weight: normal;
+  font-family:"Arial";
+  color:white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title_1{
+  font-size: 30rpx;
+  font-weight:negreta;
+  font-family:"Arial";
+  color: #282828;
+  position: absolute;
+  left: 190rpx;
+}
+.title_1_2{
+  font-size: 26rpx;
+  font-weight:negreta;
+  font-family:"Arial";
+  color: #CCCCCC;
+  position: absolute;
+  left: 190rpx;
+  bottom: 35rpx;
+}
+.title02{
+  font-size:32rpx;
+  font-weight: normal;
+  font-family:"Arial";
+  color:white;
+  position: relative;
+  left: 2%;
+}
+.title02_2{
+  font-size:32rpx;
+  font-weight: normal;
+  font-family:"Arial";
+  color:white;
+  position: relative;
+  left: 12%;
+}
+.title02_3{
+  font-size:32rpx;
+  font-weight: normal;
+  font-family:"Arial";
+  color:white;
+  position: relative;
+  left: 22%;
+}
+.title02_4{
+  font-size:32rpx;
+  font-weight: normal;
+  font-family:"Arial";
+  color:white;
+  position: relative;
+  left: 32%;
+}
+.title02_5{
+  font-size:32rpx;
+  font-weight: normal;
+  font-family:"Arial";
+  color:white;
+  position: relative;
+  left: 42%;
+}
+.title_3{
+  font-size:36rpx;
+  font-weight: normal;
+  font-family:"Arial";
+  color: #333333;
+  position: relative;
+
+}
+
+
+
+
+/*框架结构 样式*/
+.item01{
+  position: absolute;
+  width: 100%;
+  height: 90rpx;
+  top: 0rpx;
+  background: #19CCA5;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+}
+.item01_1{
+  width: 100%;
+  height: 184rpx;
+  position: absolute;
+  top: 70rpx;
+  display: flex;
+  align-items: center;
+}
+.item02_2{
+  width: 100%;
+  height: 184rpx;
+  position: relative;
+  top: 30rpx;
+  display: flex;
+  align-items: center;
+}
+.item02{
+  width: 85%;
+  height: 100rpx;
+  position: absolute;
+  top: 120rpx;
+  left: 30rpx;
+  display: flex;
+  justify-content: center;
+}
+
+
+/*弹出式悬浮菜单*/
+.img-plus-style {  
+  height: 100rpx;  
+  width: 100rpx;  
+  position: absolute;  
+  bottom: 200rpx;  
+  right: 40rpx;  
+  z-index: 100;  
+}  
+.img-style {  
+  height: 100rpx;  
+  width: 100rpx;  
+  position: absolute;  
+  bottom: 200rpx;  
+  right: 40rpx;  
+  opacity: 0;  
+}  

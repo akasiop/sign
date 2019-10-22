@@ -1,0 +1,44 @@
+<!--pages/GZ_people/GZ_people.wxml-->
+<view class="container">
+
+<view class="item01">
+ 
+ <view class="line_1"></view>
+  <view class="line_2"></view>
+   <view class="line_3"></view>
+    <view class="line_4"></view>
+
+<text class="title02">专业课</text>
+<text class="title02_2">政治</text>
+<text class="title02_3">英语</text>
+<text class="title02_4">数学</text>
+<text class="title02_5">联考统考</text>
+ 
+</view>
+
+<view class="item01_1">
+<image src="/images/f000.png" class="img_1"></image>
+<text class="title_1">名称名称名称名称</text>
+<text class="title_1_2">个性签名</text>
+<button class="button_3">关注</button>
+</view>
+<view class="line_6"></view>
+
+<view class="item02_2">
+<image src="/images/f000.png" class="img_1"></image>
+<text class="title_1">名称名称名称名称</text>
+<text class="title_1_2">个性签名</text>
+<button class="button_2">取消关注</button>
+</view>
+<view class="line_5"></view>
+
+<view class="item02_2">
+<image src="/images/f000.png" class="img_1"></image>
+<text class="title_1">名称名称名称名称</text>
+<text class="title_1_2">个性签名</text>
+<button class="button_2">取消关注</button>
+</view>
+<view class="line_5"></view>
+
+
+</view>

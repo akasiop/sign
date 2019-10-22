@@ -1,0 +1,158 @@
+/* pages/S_major_4/S_major_4.wxss */
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+/*图片 样式*/
+.img_1{
+    width: 60rpx;
+    height: 60rpx;
+    position: absolute;
+    right: 50rpx;
+    top: 35rpx;
+}
+.img_2{
+    width: 60rpx;
+    height: 60rpx;
+    position: absolute;
+    right: 50rpx;
+    top: 138rpx;
+}
+.img_3{
+    width: 60rpx;
+    height: 60rpx;
+    position: absolute;
+    right: 50rpx;
+    top: 240rpx;
+}
+
+
+
+
+
+
+/*按钮 样式*/
+.button_1{         
+  background: #19CCA5;
+  width: 98%;
+  height: 100rpx;
+  font-size: 36rpx;
+  font-family:"Arial";
+  position: absolute;
+  color: white;
+  bottom: 0rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button_3{
+  width: 150rpx;
+  height: 60rpx;
+  background: #ffffff;
+  border-width: 1rpx 1rpx 1rpx 1rpx;
+  border-color: #19CCA5;
+  border-style: solid;
+  font-size: 28rpx;
+  font-family: "Arial";
+  font-weight: normal;
+  color: #19CCA5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
+  position: absolute;
+  left: 200rpx;
+  top: 150rpx;
+
+}
+
+
+/*水平线 样式*/
+.line_1{
+  height: 1rpx;
+  width: 100%;
+  background: #CCCCCC;
+  position: relative;
+  top: 38rpx;
+}
+.line_2{
+  height: 1rpx;
+  width: 94%;
+  background: #CCCCCC;
+  position: relative;
+  left: 40rpx;
+  top: 65rpx;
+}
+.line_3{
+  height: 1rpx;
+  width: 94%;
+  background: #CCCCCC;
+  position: relative;
+  left: 40rpx;
+  top: 165rpx;
+}
+.line_4{
+  height: 1rpx;
+  width: 94%;
+  background: #CCCCCC;
+  position: relative;
+  left: 40rpx;
+  top: 265rpx;
+}
+
+
+
+
+/*字体 样式*/
+.title_1{
+  font-size:36rpx;
+  font-weight: normal;
+  font-family:"Arial";
+  color: #666666;
+  position: absolute;
+  left: 45rpx;
+  top: 40rpx;
+  display: flex;
+  align-items: center;
+}
+.title_2{
+  font-size:38rpx;
+  font-weight: normal;
+  font-family:"Arial";
+  color: #666666;
+  position: relative;
+  left: 45rpx;
+  top: 40rpx;
+  display: flex;
+  align-items: center;
+}
+
+
+
+/*关注科目输入对话框*/
+.input{
+  width: 500rpx;
+  height: 60rpx;
+  border: 1rpx solid #EEEEEE;
+  border-radius: 3px;
+  position: absolute;
+  top: 30rpx;
+  right: 40rpx;
+}
+
+
+
+/*框架 样式*/
+.item01{
+  width: 100%;
+  height: 120rpx;
+  position: absolute;
+  top: 30rpx;
+}
+.item02{
+  width: 100%;
+  height: 500rpx;
+  position: absolute;
+  top: 240rpx;
+}

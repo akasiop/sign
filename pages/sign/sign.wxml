@@ -1,0 +1,40 @@
+<!--pages/sign/sign.wxml-->
+<view class="container">
+
+<view class="item01">
+<text class="title_1">排名</text>
+<text class="title_2">昵称</text>
+<text class="title_3">奖励</text>
+</view>
+
+
+
+<view class="item02_2">
+<text class="title_4">1、</text>
+<image src="/images/f08.png" class="img_1"></image>
+<view class="line_1"></view>  
+<text class="title_5">5积分</text>
+</view>
+ 
+<view class="item02_3">
+<text class="title_4">2、</text>
+<image src="/images/f09.png" class="img_1"></image>
+<view class="line_1"></view>  
+<text class="title_5">5积分</text>
+</view>
+
+<view class="item02_4">
+<text class="title_4">3、</text>
+<image src="/images/f10.png" class="img_1"></image>
+<view class="line_1"></view>  
+<text class="title_5">5积分</text>
+</view>
+
+<view> 
+  <image src="/images/f000.png" class="img-style" animation="{{animCollect}}" bindtap="collect"></image>  
+  <image src="/images/f000.png" class="img-style" animation="{{animTranspond}}" bindtap="transpond"></image>  
+  <image src="/images/f000.png" class="img-style" animation="{{animInput}}" bindtap="input"></image>  
+  <image src="/images/f000.png" class="img-plus-style" animation="{{animPlus}}" bindtap="plus"></image>  
+</view>
+
+</view>

@@ -1,0 +1,203 @@
+/* pages/zixun_deta/zixun_deta.wxss */
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+/*图片 样式*/
+.img_1{
+  width: 50rpx;
+  height: 50rpx;
+  position: relative;
+  right: 5%;
+}
+.img_2{
+  width: 90rpx;
+  height: 50rpx;
+  position: relative;
+}
+.img_3{
+  width: 90rpx;
+  height: 60rpx;
+  position: relative;
+  left: 22%;
+  bottom: 50rpx;
+}
+
+/*按钮 样式*/
+.button_1{         
+  background: #19CCA5;
+  width: 98%;
+  height: 100rpx;
+  font-size: 36rpx;
+  font-family:"Arial";
+  position: absolute;
+  color: white;
+  bottom: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*水平线 样式*/
+.line_1{
+  height: 1rpx;
+  width: 100%;
+  background: #CCCCCC;
+  position: relative;
+  top: 50rpx;
+}
+.line_2{
+  height: 1rpx;
+  width: 94%;
+  background: #CCCCCC;
+  position: relative;
+  top: 50rpx;
+}
+.line_3{
+  height: 40rpx;
+  width: 100%;
+  background: #F2F2F2;
+  position: relative;
+  top: 490rpx;
+}
+.line_4{
+  height: 1rpx;
+  width: 100%;
+  background: #CCCCCC;
+  position: relative;
+  top: 490rpx;
+}
+
+/*标题 字样式*/
+.title{
+  width: 80%;
+  font-size:38rpx;
+  font-weight: bold;
+  font-family:"Arial";
+  color: #282828;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title_1{
+  font-size:32rpx;
+  font-weight: negreta;
+  font-family:"Arial";
+  color: #666666;
+  position: relative;
+  right: 3%;
+  top: 10%;
+}
+.title_2{
+  font-size:30rpx;
+  font-weight: negreta;
+  font-family:"Arial";
+  color: #CCCCCC;
+  position: relative;
+  left: 2%;
+  top: 14%;
+}
+.title_3{
+  font-size:36rpx;
+  font-weight: bold;
+  font-family:"Arial";
+  color: #666666;
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 44rpx;
+}
+.title_3_1{
+  font-size:26rpx;
+  font-weight: normal;
+  font-family:"Arial";
+  color: #999999;
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 44rpx;
+}
+.title_4{
+  font-size:32rpx;
+  font-weight: negreta;
+  font-family:"Arial";
+  color: #666666;
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 44rpx;
+  bottom: 40rpx;
+}
+.title_5{
+  font-size:30rpx;
+  font-weight: negreta;
+  font-family:"Arial";
+  color: #666666;
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 44rpx;
+}
+.title_5_2{
+  font-size:30rpx;
+  font-weight: negreta;
+  font-family:"Arial";
+  color: #666666;
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 20%;
+}
+.title_6{
+  font-size:38rpx;
+  font-weight: bold;
+  font-family:"Arial";
+  color: #282828;
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 44rpx;
+}
+
+/*框架 样式*/
+.item01{
+  width: 100%;
+  height: 180rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0rpx; 
+}
+.item02{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 160rpx; 
+}
+.item03{
+  width: 100%;
+  height: 400rpx;
+  position: absolute;
+  top: 290rpx;
+}
+.item04{
+  width: 100%;
+  height: 100rpx;
+  position: relative;
+  top: 490rpx;
+  display: flex;
+  align-items: center;
+}
+.item05{
+  width: 100%;
+  height: 100rpx;
+  position: relative;
+  top: 490rpx;
+  display: flex;
+  align-items: center;
+}

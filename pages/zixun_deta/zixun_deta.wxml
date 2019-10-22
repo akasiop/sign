@@ -1,0 +1,44 @@
+<!--pages/zixun_deta/zixun_deta.wxml-->
+<view class="container">
+
+<view class="item01">
+<text class="title">服务的标题，要全部显示完整，一行显示不完,则两行两行</text>
+</view>
+
+<view class="item02">
+<image src="/images/f12.png" class="img_1"></image>
+<text class="title_1">发布者昵称</text>
+<text class="title_2">2017-08-02</text>
+</view>
+<view class="line_1"></view>
+
+<view class="item03">
+<text class="title_3">看视频</text>
+<image src="/images/f00.png" class="img_3"></image>
+<text class="title_4">2018年考研英语一模拟测试卷（如收费，则跳转）</text>
+
+<text class="title_3">链接</text>
+<image src="/images/f00.png" class="img_3"></image>
+<text class="title_4">2018年考研英语一模拟测试卷（如收费，则跳转）</text>
+
+<text class="title_3_1">查看正文</text>
+
+<view class="line_2"></view>
+</view>
+
+<view class="item04">
+<text class="title_5">阅读：</text>
+<text class="title_5_2">赞：</text>
+</view>
+<view class="line_3"></view>
+
+<view class="item05">
+<text class="title_6">评论精选</text>
+</view>
+<view class="line_4"></view>
+
+
+
+<button class="button_1">分享赚积分</button>
+
+</view>
