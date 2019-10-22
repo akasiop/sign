@@ -1,0 +1,8 @@
+
+
+bindtap="showModal"
+
+<view>
+  <modal title="下载app，可以直接购买喔~" hidden="{{modalHidden}}" confirm-text="马上就去" cancel-text="下次再说"
+  bindconfirm="modalBindaconfirm" bindcancel="modalBindcancel"></modal>
+</view>

@@ -1,0 +1,13 @@
+/*轮播图片 位置框架*/
+.swiper {
+ height: 350rpx;
+ width: 100%;
+ position: absolute;
+ top: 150rpx;
+ background: #F2F2F2;
+ box-shadow: 5rpx 5rpx 5rpx 5rpx #E4E4E4;
+}
+.swiper image {
+ height: 100%;
+ width: 100%;
+}

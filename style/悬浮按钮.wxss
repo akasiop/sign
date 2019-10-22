@@ -1,0 +1,17 @@
+/*弹出式悬浮菜单*/
+.img-plus-style {  
+  height: 100rpx;  
+  width: 100rpx;  
+  position: absolute;  
+  bottom: 200rpx;  
+  right: 40rpx;  
+  z-index: 100;  
+}  
+.img-style {  
+  height: 100rpx;  
+  width: 100rpx;  
+  position: absolute;  
+  bottom: 200rpx;  
+  right: 40rpx;  
+  opacity: 0;  
+} 
