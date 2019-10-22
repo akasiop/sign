@@ -1,0 +1,46 @@
+<!--personal/me/me.wxml-->
+<view class="container">
+
+<view class="item01">
+<image src="/images/f000.png" class="img_1"></image>
+<text class="title_1">昵称XXX</text>
+<image src="/images/f14.png" class="img_2"></image>
+
+<image src="/images/f00.png" class="img_3"></image>
+<navigator url="/pages/university/university">
+<text class="title_2">关注大学</text>
+</navigator>
+
+<image src="/images/f00.png" class="img_4"></image>
+<navigator url="/pages/GZ_people/GZ_people">
+<text class="title_3">关注用户</text>
+</navigator>
+
+<view class="line_2"></view>
+</view>
+<view class="line_1"></view>
+
+<view class="item02">
+<navigator url="/pages/sign/sign">
+<text class="title_4">我的积分</text>
+</navigator>
+<navigator url="/exchange/index/index">
+<text class="title_5">我的兑换</text>
+</navigator>
+<text class="title_6">我的收藏</text>
+
+<image src="/images/f15.png" class="img_5"></image>
+<image src="/images/f15.png" class="img_5_2"></image>
+<image src="/images/f15.png" class="img_5_3"></image>
+
+</view>
+
+
+<view> 
+  <image src="/images/f000.png" class="img-style" animation="{{animCollect}}" bindtap="collect"></image>  
+  <image src="/images/f000.png" class="img-style" animation="{{animTranspond}}" bindtap="transpond"></image>  
+  <image src="/images/f000.png" class="img-style" animation="{{animInput}}" bindtap="input"></image>  
+  <image src="/images/f000.png" class="img-plus-style" animation="{{animPlus}}" bindtap="plus"></image>  
+</view>  
+
+</view>
